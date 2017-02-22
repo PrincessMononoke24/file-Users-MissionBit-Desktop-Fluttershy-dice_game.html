@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Dice Roller</title>
+    </head>
+
+<body>
+       <img onmouseover="diceRoll();"
+        src="https://hellfiredesigns.files.wordpress.com/2012/09/rollin_d61.gif">
+        
+        <div id="output"></div>
+    
+    <script>
+
+        function diceRoll() {
+        var randNum= Math.floor(Math.random() * 6) + 1;
+        document.getElementById("output").innerHTML = "<h1>" + randNum + "</h1>";
+        }
+        
+        
+    </script>
+    
+    
+</body>
+    
+</html>
+       
